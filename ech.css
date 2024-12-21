@@ -1,0 +1,301 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(83, 49, 115);
+  font-size: 50px;
+}
+.di {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(83, 49, 115);
+}
+.overall {
+  background-color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 255, 255);
+}
+.NOW {
+  margin: 0 auto;
+  padding: 10px;
+}
+.bord {
+  display: flex;
+
+}
+.pall{
+  display: flex;
+  gap: 40px;
+}
+.p1{
+  margin: 0 auto;
+  padding: 10px;
+  width: 290px;
+  border: 2px solid #888; 
+}
+.p2{
+  margin: 0 auto;
+  padding: 10px;
+  width: 290px;
+  border: 2px solid #888; 
+}
+.bor1 {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 3px solid aquamarine;
+  margin: 10px;
+  padding: 10px;
+  width: 290;
+  text-align: center;
+}
+.no2{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.bor2 {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 3px solid aquamarine;
+  margin: 10px;
+  padding: 10px;
+  width: 290;
+}
+.nall{
+  display: flex;
+}
+.e1{
+  text-decoration:underline;
+}
+footer {
+  padding: px ;
+  background: #333;
+  color: white;
+  /* position: relative; */
+  /* bottom: 0; */
+  width: 100%;
+}
+video{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.boy{
+  margin: 0 auto;
+  text-align: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.ahref{
+  text-align: center;
+}
+a:hover{
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.n1{
+  margin: 0 auto;
+  font-size: 25px;
+}
+.r{
+  font-size: 30px;
+}
+.end{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+}
+.T{
+  font-size: 20px;
+}
+.n2{
+  margin: 0 auto;
+}
+.last{
+  border: red solid;
+  width: 210px;
+  height: 50px;
+  border-radius: 1px;
+  font-size: 20px;
+  color: azure;
+}
+
+h2 {
+  display: flex;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 auto;
+  color: rgb(83, 49, 115);
+}
+.hi {
+  display: flex;
+  margin: 0 auto;
+  color: navy;
+}
+.drac{
+  display: flex;
+  margin: 0px;
+}
+h2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 50px;
+  color: teal;
+}
+.j{
+  margin: 0 auto;
+  text-align: center;
+}
+.bor3{
+  border: 2px solid #fff;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  color: darkred;
+}
+
+.hu {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  /* gap: 100px; */
+  /* height: 50px;
+  width: 80px; */
+}
+.writeup {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  padding: 15px 20px;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 30px;
+  padding: 30px;
+}
+.head{
+  margin: 0 auto;
+  color: rgb(83, 49, 115);
+  /* font-size: 30px; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* text-align: center; */
+  display: flex;
+}
+.h{
+margin: 0 auto;
+}
+
+.e{
+margin: 0 auto;
+}
+
+.ad{
+margin: 0 auto;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  color: #ff8000; /* Change this to your preferred hover text color */
+}
+button {
+  background-color: red;
+  border: 6px solid transparent;
+  border-radius: 12px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+}
+.dropdown li {
+  display: block;
+}
+
+.dropdown a {
+  padding: 10px;
+}
+
+.navbar li:hover .dropdown {
+  display: block;
+}
+.au {
+  border-radius: 5px;
+  height: 40px;
+}
+.au:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+.ku {
+  background-color: white;
+  border: 3px solid;
+  border-radius: 4px;
+  height: 40px;
+}
+.ku:hover {
+  border: 3px solid #6365d8;
+  background-color: #6365d8;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #42b72a;
+  color: white;
+  width: 100%;
+}
+footer:hover {
+  text-align: center;
+  padding: 10px 0;
+  background: blue;
+  color: white;
+  width: 100%;
+}
